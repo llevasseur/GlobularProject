@@ -10,25 +10,25 @@ Set number of globules by changing variable "num".
 
 Set r0 using:
 
-	* system globSys r0 <x>
+	system globSys r0 <x>
 
 Set constants m, n, b1, timestep:
 
-	* simulator globSim constants <m> <n> <b1> <timestep>
+	simulator globSim constants <m> <n> <b1> <timestep>
 
 Set material type:
 
-	* simulator globSim material <type>
+	simulator globSim material <type>
 
-	* <type> includes: powder, liquid, solid
+	<type> includes: powder, liquid, solid
 
 Set ground spring constants:
 
-	* simulator globSim ground <ks> <kd>
+	simulator globSim ground <ks> <kd>
 
 Set global gravity:
 
-	* simulator globSim gravity <dy>
+	simulator globSim gravity <dy>
 
 To test different viscosity for liquid, change "alpha" in GlobuleSim::Cd.
 
