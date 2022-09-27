@@ -7,16 +7,27 @@ Open this file in Visual Studio and select `cs174-2010.sln` to access the source
 Edit the file `start.tcl` in the /Build directory to customize parameters for different animation results. Below are the customizable variables:
 
 Set number of globules by changing variable "num".
+
 Set r0 using:
+
 	* system globSys r0 <x>
+
 Set constants m, n, b1, timestep:
+
 	* simulator globSim constants <m> <n> <b1> <timestep>
+
 Set material type:
+
 	* simulator globSim material <type>
+
 	* <type> includes: powder, liquid, solid
+
 Set ground spring constants:
+
 	* simulator globSim ground <ks> <kd>
+
 Set global gravity:
+
 	* simulator globSim gravity <dy>
 
 To test different viscosity for liquid, change "alpha" in GlobuleSim::Cd.
